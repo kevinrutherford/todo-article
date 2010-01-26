@@ -1,0 +1,9 @@
+The script todo.rb is a simple to-do list manager.
+
+To use this tool, you add new tasks to the list via the "todo" command.
+You work the list in order; you can either mark the current task "done" or "skip" it.
+If you skip a task three times, it's deleted;
+you'll have to manually re-add it if you intend to do it.
+If you move past the end of the list, you go back to the first not-done task and start over.
+There are two other commands: "list" prints a list of all incomplete tasks, and "quit" exits the system (losing all data -- we haven't addressed persistence).
+
