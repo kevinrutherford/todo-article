@@ -7,3 +7,6 @@ you'll have to manually re-add it if you intend to do it.
 If you move past the end of the list, you go back to the first not-done task and start over.
 There are two other commands: "list" prints a list of all incomplete tasks, and "quit" exits the system (losing all data -- we haven't addressed persistence).
 
+The shell script test.sh runs a couple of user sessions (*.in) with the tool,
+capturing their output and comparing it with the expected responses (*.master).
+
